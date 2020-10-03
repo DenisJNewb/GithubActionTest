@@ -34,4 +34,4 @@ jobs:
         run: nuget restore GithubActionTest.sln
       
       - name: Build app
-        run: msbuild GithubActionTest.sln
+        run: msbuild GithubActionTest.sln /p:Configuration=Release
